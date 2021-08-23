@@ -31,8 +31,7 @@ header li{
     color: #10c9c3;
 }
 .container_12 .grid_5{
-    position: absolute;
-    left: 55%;
+    float: right;
     width: 350px;
     padding-top: 7%;
 }
