@@ -1,1 +1,138 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    cursor: default;
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding-top: 40px;
+    background-color: #E9E9E9;
+    height: 70%;
+}
+header ul{
+    float:  right;
+}
+header li{
+    float:  left;
+    padding-left: 30px;
+}
+.mnu_top li a{
+    color: #000;
+    font-size: 12px;
+    -webkit-transition: all .25s ease ;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.mnu_top li.active a,
+.mnu_top li a:hover{
+    color: #10c9c3;
+}
+.container_12 .grid_5{
+    position: absolute;
+    left: 55%;
+    width: 350px;
+    padding-top: 7%;
+}
+.container_12 .grid_5 h1{
+    font-size: 28px;
+}
+.container_12 .grid_5 p{
+    padding-top: 30px;
+    font-size: 18px;
+    color: #787878;
+}
+.container_12 .grid_5 .contact_us{
+    width: 180px;
+    height: 50px;
+    margin-top: 40px;
+    border: none;
+    background-color: #10C9C3;
+    color: #fff;
+    font-size: 12px;
+    font-family: "NunitoSans", sans-serif;
+    cursor: pointer;
+}
 
+
+
+.about_us{
+
+}
+.about_us h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 80px;
+}
+.about_us p{
+    font-size: 14px;
+    text-align: center;
+    color: #787878;
+    width: 35%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+.about_us img{
+    display: block;
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+
+
+.skills_cont{
+    display: flex;
+    flex-flow: row wrap;
+}
+.skills{
+    width: 50%;
+    padding: 12% 0 12% 0;
+}
+.skills_cont .first h1{
+    font-family: "NunitoSans", sans-serif;
+    font-size: 28px;
+    margin-left: 15%;
+}
+.skills_cont .first p{
+    margin: 30px 15% 15px 15%;
+    font-size: 12px;
+} 
+.meter{
+        height: 3px;
+        background: #D8D8D8;
+        margin: 0 15% 0 15%;
+}
+.skills_cont .first .meter span{
+    display: block;
+    background: #10C9C3;
+    height: 100%;
+}
+.skills_cont .first{
+    width: 50%;
+    background-color: #F8F9F9;
+}
+.skills_cont .second{
+    background-color: #E9E9E9;
+}
+
+
+
+
+
+
+@font-face {
+font-family: "Montserrat"; 
+src: url("../fonts/Montserrat.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "NunitoSans"; 
+src: url("../fonts/NunitoSans.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
