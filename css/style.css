@@ -1,3 +1,12 @@
+::-webkit-scrollbar { /* chrome based */
+    width: 0px;  /* ширина scrollbar'a */
+    background: transparent;  /* опционально */
+}
+
+html {
+    -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+}
 body{
     font-family: "Montserrat", sans-serif;
     cursor: default;
@@ -8,7 +17,7 @@ a{
 header{
     padding-top: 40px;
     background-color: #E9E9E9;
-    min-height: 60%;
+    height: 70%;
 }
 header ul{
     float:  right;
@@ -54,8 +63,19 @@ header li{
     font-size: 12px;
     font-family: "NunitoSans", sans-serif;
     cursor: pointer;
+    outline: 3px solid;
+    outline-color: rgba(255, 255, 255, .2);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);  
 }
-
+.container_12 .grid_5 .contact_us:hover,
+.container_12 .grid_5 .contact_us:active{
+    box-shadow: inset 0 0 20px #BFE2FF;
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    color: #FFF;
+}
 
 
 .about_us{
@@ -116,6 +136,37 @@ header li{
 }
 .skills_cont .second{
     background-color: #E9E9E9;
+}
+
+
+.work_count_bg{
+    background-color: #10C9C3;
+}
+.work_count_cont{
+    display: flex;
+    flex-flow: row wrap;
+    width: 86%;
+    height: 32%;
+    padding-left: 14%;
+}
+.work_count{
+    width: 23%;
+}
+.work_count_cont .work_count .work_count_first{
+    float: left;
+    height: 40px;
+    padding: 43% 0 43% 0;
+}
+.work_count_cont .work_count .work_count_header{
+    padding: 42% 0 0 25%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+.work_count_cont .work_count .work_count_text{
+    padding: 7px 0 0 25%;
+    color: #fff;
+    font-size: 12px;
 }
 
 
